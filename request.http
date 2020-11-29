@@ -1,0 +1,11 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVGlzaHlhIFNpbmhhIiwiaWF0IjoxNjA0ODcyNDkwfQ.HRLGHMjVJZqPRW-_D7ZZ0d3rbgpZpLCxEGzIAdxNMho
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username" : "Tishya Sinha"
+}
